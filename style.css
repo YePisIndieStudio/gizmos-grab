@@ -48,6 +48,34 @@ p {
   margin: 40px 0;
 }
 
+button.normal
+{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white
+{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
 body {
   width: 100%;
 }
@@ -287,6 +315,10 @@ body {
 {
   color: #1a1a1a;
 }
+#product1 s
+{
+  color: #858484;
+}
 
 #banner
 {
@@ -306,11 +338,65 @@ body {
 {
   color: #e8f6ea;
 }
-#banner button
+#banner h2 span
 {
-  background-image: url("img/button.png");
-  background: none;
-  border: none;
-  color: #e8f6ea;
-  cursor: pointer;
+  color: #cc3c3c;
+}
+#banner button:hover
+{
+  background:#088178;
+  color: #000;
+}
+
+#sm-banner
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sm-banner .banner-box
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-image: url("img/banner/banner2.png");
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+#sm-banner .banner-box2
+{
+  background-image: url("img/banner/banner3.png");
+}
+#sm-banner h4
+{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+}
+#sm-banner h2
+{
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+}
+#sm-banner span
+{
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+#sm-banner .banner-box2 span
+{
+  color: #fff;
+}
+#sm-banner .banner-box:hover button
+{
+  background: #088178;
+  border: 1px solid #088178;
 }

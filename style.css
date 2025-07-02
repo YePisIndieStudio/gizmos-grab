@@ -662,8 +662,13 @@ footer .copyright
 }
 #prodetails .single-pro-details h2
 {
+  color: #088178;
   font-size: 26px;
 }
+#prodetails .single-pro-details s
+{
+  color: #858484
+} 
 #prodetails .single-pro-details select
 {
   display: block;
@@ -1378,5 +1383,9 @@ footer .copyright
     margin-bottom: 30px;
     border: 1px solid #e2e9e1;
     padding: 30px;
+  }
+  #cart tbody tr td
+  {
+    white-space: normal;
   }
 }
